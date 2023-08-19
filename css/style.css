@@ -470,7 +470,7 @@ div#beach {
 div#video {
   position: absolute;
   right: 75px;
-  bottom: 170px;
+  bottom: 290px;
 }
 
 div#video iframe {
@@ -478,3 +478,25 @@ div#video iframe {
   height: 155px;
 }
 }
+
+@media screen and (max-width: 800px){
+
+  div#beach {
+    background-image: url(https://dl.dropbox.com/s/oe0oce2udq44bj5/beachsil2.png);
+    /* background-size: cover; */
+    background-position: bottom center;
+    background-size: 1700px;
+    background-repeat: no-repeat;
+  }
+  
+  div#video {
+    position: absolute;
+    right: 75px;
+    bottom: 290px;
+  }
+  
+  div#video iframe {
+    width: 255px;
+    height: 155px;
+  }
+  }
