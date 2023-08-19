@@ -490,7 +490,7 @@ div#video iframe {
   }
   
   div#video {
-    position: absolute;
+    position: center;
     right: 75px;
     bottom: 290px;
   }
