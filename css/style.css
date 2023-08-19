@@ -484,7 +484,30 @@ div#video iframe {
   div#beach {
     background-image: url(https://dl.dropbox.com/s/oe0oce2udq44bj5/beachsil2.png);
     /* background-size: cover; */
-    background-position: bottom center;
+    right: 300px;
+    background-size: 1700px;
+    background-repeat: no-repeat;
+  }
+  
+  div#video {
+    position: center;
+    right: 75px;
+    bottom: 290px;
+  }
+  
+  div#video iframe {
+    width: 255px;
+    height: 155px;
+  }
+  }
+  
+  
+@media screen and (max-width: 900px){
+
+  div#beach {
+    background-image: url(https://dl.dropbox.com/s/oe0oce2udq44bj5/beachsil2.png);
+    /* background-size: cover; */
+    right: 300px;
     background-size: 1700px;
     background-repeat: no-repeat;
   }
